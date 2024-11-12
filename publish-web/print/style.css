@@ -1,0 +1,33 @@
+table 
+{
+    border: none;
+}
+
+body {
+    font-family: sans-serif;
+}
+table {
+    text-align: center;
+    font-weight: semibold;
+    border-collapse: collapse;
+}
+th {
+    text-align: center;
+    padding-left: 0.35em;
+    padding-right: 0.35em;
+    padding-top: 0.35em;
+    padding-bottom: 0.35em;
+    vertical-align: top;
+}
+td {
+    padding-left: 0.35em;
+    padding-right: 0.35em;
+    padding-top: 0.35em;
+    padding-bottom: 0.35em;
+    vertical-align: top;
+}
+img {
+    margin: 0.2em;
+    vertical-align: middle;
+    width: 50px;
+}

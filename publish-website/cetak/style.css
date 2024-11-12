@@ -1,0 +1,44 @@
+body {
+  background: linear-gradient(135deg, #f7fafc, #e2e8f0);
+  font-family: "Inter", sans-serif;
+  color: #2d3748;
+  padding: 10px;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  background-color: white;
+  border-radius: 8px;
+  box-shadow: 0 8px 30px rgba(0, 0, 0, 0.1);
+}
+
+th,
+td {
+  padding: 15px 20px;
+  text-align: left;
+}
+
+th {
+  background-color: #2d3748;
+  color: white;
+  font-size: 14px;
+  letter-spacing: 0.05em;
+  text-transform: uppercase;
+}
+
+td {
+  font-size: 15px;
+  font-weight: 500;
+  color: #4a5568;
+}
+
+/* Zebra stripe rows */
+tr:nth-child(even) {
+  background-color: #f7fafc;
+}
+
+.judul {
+  font-size: 40px;
+  /* font-weight: 800; */
+}
